@@ -17,3 +17,12 @@ if(int(num2) % 2 == 0):
     print(num2 + 'your second number is an even number!')
 else:
     print(num2 + 'your second number is an odd number!')
+
+if num1 > num2:
+    BigNum=num1
+elif num1 < num2:
+    BigNum=num2
+else:
+    BigNum=num2
+
+print("The bigger number is: ", BigNum)
